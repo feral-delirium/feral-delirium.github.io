@@ -35,7 +35,7 @@ html {
     color: white;
     display: inline;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     padding: 1px 10px;
 }
 
@@ -71,6 +71,24 @@ html {
     background-image: url(imgs/AsiaTongue.gif);
 }
 
+.jumbotron.four {
+    height: 600px;
+    background-image: url(imgs/Koneko/KonekoFlick.gif);
+    
+}
+
+.jumbotron.five {
+    height: 600px;
+    background-image: url(imgs/Xenovia/XenoviaGif.gif);
+    background-attachment: local;
+}
+
+.jumbotron.six {
+    height: 600px;
+    background-image: url(imgs/Irina/IrinaGif.gif);
+    background-attachment: local;
+}
+
 .jumbo-txt {
     -webkit-text-stroke: 2px black;
     color: white!important;
@@ -85,6 +103,11 @@ h1 {
     text-align: center;
     font-family: 'Miss Fajardose', serif;
     font-size: 75px;
+}
+
+.head {
+    font-size: 50px;
+    font-family: 'Roboto Condensed',sans-serif;
 }
 
 .char {
@@ -115,6 +138,16 @@ hr {
 .hr3 {
     width: 50%;
     border-color: blueviolet;
+}
+
+.hr4 {
+    width: 50%;
+    border-color: #e5e364;
+}
+
+.hr5 {
+    width: 50%;
+    border-color: #d1d1d1;
 }
 
 p {
