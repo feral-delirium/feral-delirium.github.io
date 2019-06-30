@@ -1,0 +1,30 @@
+html {
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    height: 1100px;
+    background-image: url(imgs/ezgif-2-744286c94385.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbo-txt {
+    text-align: center;
+    font-size: 75px;
+    margin-top: 20%;
+    color: white
+}
+
+.jumbo-h3 {
+    text-align: center;
+    color: white;
+    
+}
+
+.center-txt {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 35%;
+}
