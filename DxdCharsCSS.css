@@ -1,0 +1,285 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/*Smooth Scroll*/
+/* Nav Bar Start */
+.left {
+    float: left;
+    margin: 0px;
+    padding: 0px 15px; 
+}
+
+.right {
+    float: right;
+    padding: 0px 15px;
+}
+
+div.center {
+    margin-left: 20%;
+}
+
+.char-list {
+    list-style-type: none;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 20;
+    padding: 13px 0px;
+}
+
+.char-list li {
+    display: inline;
+}
+
+.char-list li a {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    padding: 16px 10px;
+    margin: 10px 0px;
+    transition: .25s;
+}
+
+.char-list a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: #333;
+}
+
+/* Nav Bar End*/
+/* Jumbotron Start*/
+.jumbotron {
+    display: table;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-image: url(imgs/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.jumbotron.rias {
+    background-image: url(imgs/RiasBlink.gif)
+}
+
+.jumbotron.two {
+    height: 600px;
+    background-image: url(imgs/AkenoLick.gif)
+} 
+
+.jumbotron.three {
+    height: 600px;
+    background-image: url(imgs/AsiaTongue.gif);
+}
+
+.jumbotron.four {
+    height: 600px;
+    background-image: url(imgs/Koneko/KonekoFlick.gif);
+    
+}
+
+.jumbotron.five {
+    height: 600px;
+    background-image: url(imgs/Xenovia/XenoviaGif.gif);
+    background-attachment: local;
+}
+
+.jumbotron.six {
+    height: 600px;
+    background-image: url(imgs/Irina/IrinaGif.gif);
+    background-attachment: local;
+}
+
+.jumbo-txt {
+    -webkit-text-stroke: 2px black;
+    color: white!important;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 150px!important;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Jumbotron End*/
+/* Info Start */
+h1 {
+    text-align: center;
+    font-family: 'Miss Fajardose', serif;
+    font-size: 75px;
+}
+
+.head {
+    font-size: 50px;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.char {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 50px;
+    margin: 15px 20px;
+}
+
+.imgLG {
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    border-color: dimgray;
+    width: 75%;
+}
+
+.placeholder {
+    border-color: white;
+}
+
+.hr2 {
+    width: 50%;
+    border-color: firebrick;
+}
+
+.hr3 {
+    width: 50%;
+    border-color: blueviolet;
+}
+
+.hr4 {
+    width: 50%;
+    border-color: #e5e364;
+}
+
+.hr5 {
+    width: 50%;
+    border-color: #d1d1d1;
+}
+
+.hr6 {
+    width: 50%;
+    border-color: blue;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 75px;
+    padding: 20px 50px;
+    transition: .3s;
+}
+/* Info End */
+/* Iamge Gallery Start */
+h2 {
+    text-align: center;
+}
+
+.img-gal {
+    text-align: center;
+}
+
+.img-gal img {
+    padding: 10px;
+    transition: .2s;
+}
+
+.img-gal img:hover {
+    transform: scale(1.25);
+}
+
+.nsfw {
+    -webkit-filter: blur(8px);
+}
+
+.nsfw:active {
+    -webkit-filter: blur(0px);
+}
+
+/* Image Gallery End */
+
+.center {
+    margin: 0px 100px;
+}
+
+.outer {
+    display: inline-block;
+    position: relative;
+    margin-top:100px;
+    margin-left:113px;
+    transform: skew(-20deg,0deg);
+    width: 150px;
+    height: 350px;
+    overflow: hidden;
+    transition: 0.25s;
+}
+
+.inner {
+    position: absolute;
+    left: -80px;
+    background-image: url(imgs/Rias%208.jpg);
+    background-size: cover;
+    background-position: center;
+    width:700px;
+    height: 500px;  
+    transform: skew(20deg,0deg) translateY(-30px) translateX(-100px);
+    transition: 0.5s;
+}
+
+.banner-rias-fix {
+    transform: translateX(-300px) skew(20deg,0deg);
+}
+
+.outer:hover {
+    transition: 0.25s;
+    box-shadow: 0 0 75px black;
+    z-index: 10;
+}
+
+.inner:hover {
+    transition: 0.5s;
+    /*border: 40px solid #333;*/
+    transform: scale(1.25) translateX(-250px) skew(20deg,0deg);
+}
+
+.div-two {
+    margin-left: 0px;
+}
+
+.banner1 {
+    background-image: url(imgs/Akeno%205.jpg);
+}
+
+.banner1:hover {
+    transform: scale(1.25) translateX(-50px) translateY(-110px) skew(20deg,0deg);
+}
+
+.banner2 {
+    background-image: url(imgs/Asia/Asia%206.jpg);
+    transform: translateX(-350px) skew(20deg, 0deg);
+}
+
+.banner2:hover {
+    transform: scale(1.25) translateX(-300px) skew(20deg, 0deg) ;
+}
+
+.banner3 {
+    background-image: url(imgs/Koneko/Koneko%202.jpg);
+    transform: translateX(-175px) translateY(-100px) skew(20deg, 0deg);
+}
+
+.banner3:hover {
+    transform: scale(1.25) translateX(-150px) translateY(-100px) skew(20deg,0deg);
+}
+
+.banner4 {
+    background-image: url(imgs/Xenovia/Xenovia%201.jpg);
+    transform: translateX(-350px) skew(20deg,0deg);
+}
+
+.banner4:hover {
+    transform: scale(1.25) translateX(-350px) skew(20deg,0deg);
+}
+
+.banner5 {
+    background-image: url(imgs/Irina/Irina%205.jpg);
+    transform: translateX(-300px) skew(20deg,0deg);
+}
